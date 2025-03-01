@@ -1,12 +1,8 @@
+/* eslint-disable react/prop-types */
 const ShoeCard = ({ imgUrl, bigShoeImg, changeBigshoeImg }) => {
-  //   const handleClick = () => {
-  //     if () {
-  //       changeBigshoeImg(imgUrl.bigShoe);
-  //     }
-  //   };
   return (
     <div
-      className={`bg-card bg-cover bg-center mx-2 py-4 sm:mx-4 px-4 sm:py-6 border-2 rounded-lg z-10
+      className={`bg-card bg-cover  bg-center mx-2 py-4 sm:mx-4 px-4 sm:py-6 border-2 rounded-lg z-10
         cursor-pointer
         ${
           imgUrl.bigShoe === bigShoeImg
@@ -27,3 +23,9 @@ const ShoeCard = ({ imgUrl, bigShoeImg, changeBigshoeImg }) => {
 };
 
 export default ShoeCard;
+
+//   const handleClick = () => {
+//     if () {
+//       changeBigshoeImg(imgUrl.bigShoe);
+//     }
+//   };

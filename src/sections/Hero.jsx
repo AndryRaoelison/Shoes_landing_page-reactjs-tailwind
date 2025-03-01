@@ -1,14 +1,14 @@
 import { arrowRight } from "../assets/icons";
-import { bigShoe1 } from "../assets/images";
+import { bigShoe3 } from "../assets/images";
 import Button from "../components/button";
 import ShoeCard from "../components/ShoeCard";
 import { shoes, statistics } from "../constants";
 import { useState } from "react";
 
 const Hero = () => {
-  const [bigShoeImg, setbigShoeImg] = useState(bigShoe1);
+  const [bigShoeImg, setbigShoeImg] = useState(bigShoe3);
   return (
-    <section className="w-full flex border-2 gap-10 xl:flex-row flex-col justify-center items-center min-h-screen max-container border-red-500 ">
+    <section className="w-full flex  gap-10 xl:flex-row flex-col justify-center items-center min-h-screen max-container">
       <div
         className="relative xl:w-2/5 flex flex-col justify-center 
         items-start w-full  max-xl:padding-x pt-28 "
@@ -43,7 +43,7 @@ const Hero = () => {
         </div>
       </div>
       <div
-        className="relative w-full  flex-1 flex justify-center items-center xl:min-h-screen sm:py-40 py-25
+        className="relative w-full  flex-1 flex justify-center items-center xl:min-h-screen sm:py-30 py-25
       bg-primary bg-hero bg-cover bg-center"
       >
         <img
@@ -56,7 +56,6 @@ const Hero = () => {
         "
         />
         <div className="flex justify-center items-center absolute -bottom-[5%]  ">
-          {console.log("Big shoe est " + bigShoeImg)}
           {shoes.map((shoe) => (
             <ShoeCard
               key={shoe.thumbnail}

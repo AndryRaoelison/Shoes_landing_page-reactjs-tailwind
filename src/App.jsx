@@ -5,7 +5,7 @@ import {
   Hero,
   PopularProducts,
   Services,
-  // SpecialOffer,
+  SpecialOffer,
   Subscribe,
   SuperQuality,
 } from "./sections";
@@ -16,22 +16,25 @@ const App = () => (
     <section className="xl:padding-l wide:padding-r padding-b ">
       <Hero />
     </section>
-    <section className="padding border-2">
+    <section className="padding ">
       <PopularProducts />
     </section>
-    <section className="padding">
+    <section className="padding ">
       <SuperQuality />
     </section>
-    <section className="py-10 padding-x">
+    <section className="py-20 padding-x">
       <Services />
     </section>
-    <section className="bg-pale-blue padding">
+    <section className="py-10 padding-x">
+      <SpecialOffer />
+    </section>
+    <section className="bg-pale-blue padding ">
       <CustomerReviews />
     </section>
-    <section className="padding-x sm:py-32 px-16 w-full">
+    <section className="padding-x md:py-20 py-10 ">
       <Subscribe />
     </section>
-    <section className="padding-x bg-black pb-8 padding-t">
+    <section className="padding-x bg-black pb-8 padding-t ">
       <Footer />
     </section>
   </main>

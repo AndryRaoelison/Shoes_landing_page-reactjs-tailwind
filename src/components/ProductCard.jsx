@@ -3,13 +3,13 @@ import { star } from "../assets/icons";
 
 const ProductCard = ({ imgURL, name, price, rating }) => {
   return (
-    <div className="flex   flex-col mt-2 px-0  w-full max-sm:w-full ">
+    <div className="flex flex-col mt-2 px-0  w-full max-sm:w-full ">
       <img
         src={imgURL}
         alt={name}
-        className="  flex-1 max-lg:w-[250px] m-0  object-contain"
+        className="  flex-1 max-lg:w-[250px] lg:m-0  object-contain"
       />
-      <div className="m-0 mt-4 flex justify-start gap-2 ">
+      <div className="lg:mx-0 mt-4 flex justify-start gap-2 ">
         {Array.from({ length: rating }, (_, index) => (
           <img
             key={index}
@@ -19,10 +19,10 @@ const ProductCard = ({ imgURL, name, price, rating }) => {
           />
         ))}
       </div>
-      <p className="mx-0 mt-2  font-semibold font-palanquin text-md sm:text-xl">
+      <p className="lg:mx-0 mt-2  font-semibold font-palanquin text-md sm:text-xl">
         {name}
       </p>
-      <p className="mx-0 mt-2 font-montserrat text-coral-red text-sm font-semibold">
+      <p className="lg:mx-0 mt-2 font-montserrat text-coral-red text-sm font-semibold">
         Price : {price}
       </p>
     </div>
