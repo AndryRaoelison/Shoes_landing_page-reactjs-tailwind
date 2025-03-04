@@ -34,17 +34,13 @@
     
     /* border: 2px dashed red; */
   }
- .input {
-    @apply sm:flex-1 max-sm:w-full text-base leading-normal text-slate-gray
-     pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-slate-gray max-sm:rounded-full;
-  }
-  
+
   
 }
 
 @utility input {
-  @apply sm:flex-1 max-sm:w-full text-base leading-normal text-slate-gray
-   pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-slate-gray max-sm:rounded-full;
+  @apply sm:flex-1 max-sm:w-full text-base leading-normal text-slate-gray 
+   pl-5 max-sm:p-5 outline-none sm:border-none border-1 max-sm:border-slate-gray max-sm:rounded-full;
 }
 
 

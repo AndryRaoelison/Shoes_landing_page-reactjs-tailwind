@@ -12,8 +12,8 @@ const Subscribe = () => {
         <span className="text-coral-red"> Newsletter </span>
       </h2>
       <div
-        className="flex max-sm:flex-col items-center lg:max-w-[40%] w-[80%]
-      sm:border-1 border-slate-gray rounded-full flex-1 py-0 justify-end md:mx-0 gap-5"
+        className="flex max-sm:flex-col items-center lg:max-w-[40%] w-[80%] p-1
+      sm:border-1 border-slate-gray rounded-full flex-1  justify-end md:mx-0 gap-5"
       >
         <input
           type="email"
