@@ -43,8 +43,6 @@
    pl-5 max-sm:p-5 outline-none sm:border-none border-1 max-sm:border-slate-gray max-sm:rounded-full;
 }
 
-
-
 @utility padding {
     @apply sm:px-16 px-8 sm:py-24 py-12;
   }
@@ -77,4 +75,5 @@
 @utility info-text {
     @apply  text-slate-gray text-lg leading-7;
   }
+
 
