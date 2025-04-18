@@ -23,6 +23,13 @@ This project purpose is to demonstrate front-end development skills focusing on 
 ![MobilePreview](https://github.com/user-attachments/assets/dcbb92ed-1ec1-4c1a-8343-2a495f0d1052)
 
 ---
+## Technologies
+
+- **React.js**
+- **Tailwind CSS**
+- Vite 
+  
+---
 ## Contributing :
 
 Constructive feedback and suggestions are always welcome!  
@@ -53,6 +60,13 @@ Ce projet met en avant les compétences en **développement front-end**, avec un
 ![Review+CTA](https://github.com/user-attachments/assets/bc55e2ef-4dff-41cb-a175-ea8debe573b2)
 ### Mobile :
 ![MobilePreview](https://github.com/user-attachments/assets/dcbb92ed-1ec1-4c1a-8343-2a495f0d1052)
+---
+##  Technologies utilisées
+
+- **React.js**
+- **Tailwind CSS**
+- Vite 
+  
 ---
 ## Contribution : 
 
