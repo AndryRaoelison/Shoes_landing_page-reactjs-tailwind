@@ -17,3 +17,5 @@ This project demonstrates front-end development skills focusing on **design**, *
 ![Hero2+navbar](https://github.com/user-attachments/assets/b944a3b5-aded-4c53-9423-dab1a53a171c)
 ![PopularProduct](https://github.com/user-attachments/assets/3c3474fc-47b6-43ad-a64d-f4e8c76b283d)
 ![services](https://github.com/user-attachments/assets/13db9cff-44da-4010-af72-cd7f1c0c65c7)
+![Review+CTA](https://github.com/user-attachments/assets/bc55e2ef-4dff-41cb-a175-ea8debe573b2)
+![MobilePreview](https://github.com/user-attachments/assets/94f38139-2470-4b54-a533-6c558e40c05e)
