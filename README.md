@@ -1,8 +1,19 @@
-# React + Vite
+# Shoes Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## """"""""""""""""""""en-US"""""""""""""""""""""""""""""""""""
+A modern and responsive landing page for a fictional shoe brand, built with **React.js** and **Tailwind CSS**.  
+This project demonstrates front-end development skills focusing on **design**, **responsiveness**, and **clean UI** using modern web tools.
 
-Currently, two official plugins are available:
+ ##Features : 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Fully responsive layout (mobile-first)
+- 🎨 Clean and modern UI design
+- ⚛️ Built with React.js (Functional components)
+- 🎯 Tailwind CSS for utility-first styling
+- 🧩 Components structure for reusability
+
+##Preview : 
+![Hero+navbar](https://github.com/user-attachments/assets/4d9418fa-36b6-4651-8925-720a29a364d2)
+![Hero2+navbar](https://github.com/user-attachments/assets/b944a3b5-aded-4c53-9423-dab1a53a171c)
+![PopularProduct](https://github.com/user-attachments/assets/3c3474fc-47b6-43ad-a64d-f4e8c76b283d)
+![services](https://github.com/user-attachments/assets/13db9cff-44da-4010-af72-cd7f1c0c65c7)
