@@ -1,14 +1,17 @@
 import { arrowRight } from "../assets/icons";
-import { bigShoe3 } from "../assets/images";
+import { bigShoe2 } from "../assets/images";
 import Button from "../components/button";
 import ShoeCard from "../components/ShoeCard";
 import { shoes, statistics } from "../constants";
 import { useState } from "react";
 
 const Hero = () => {
-  const [bigShoeImg, setbigShoeImg] = useState(bigShoe3);
+  const [bigShoeImg, setbigShoeImg] = useState(bigShoe2);
   return (
-    <section className="w-full flex  gap-10 xl:flex-row flex-col justify-center items-center min-h-screen max-container">
+    <section
+      id="home"
+      className="w-full flex  gap-10 xl:flex-row flex-col justify-center items-center min-h-screen max-container"
+    >
       <div
         className="relative xl:w-2/5 flex flex-col justify-center 
         items-start w-full  max-xl:padding-x pt-28 "
@@ -22,10 +25,10 @@ const Hero = () => {
             The New <span className=""> Arrival </span>
           </span>
           <br />
-          <span className="text-coral-red inline-block mt-3">Nike</span> Shoes
+          <span className="text-coral-red inline-block mt-3">Vake</span> Shoes
         </h1>
         <p className="font-montserrat sm:mx-0 text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">
-          Discover stylish Nike arrivals, quality comfort, and innovation for
+          Discover stylish Vake arrivals, quality comfort, and innovation for
           your active life.
         </p>
         <Button label="Shop now" iconURL={arrowRight} />

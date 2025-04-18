@@ -24,8 +24,8 @@ import {
 
 export const navLinks = [
   { href: "#home", label: "Home" },
-  { href: "#about-us", label: "About Us" },
   { href: "#products", label: "Products" },
+  { href: "#about-us", label: "About Us" },
   { href: "#contact-us", label: "Contact Us" },
 ];
 
@@ -53,25 +53,25 @@ export const statistics = [
 export const products = [
   {
     imgURL: shoe4,
-    name: "Nike Air Jordan-01",
+    name: "Lorem-01",
     price: "$200.20",
     rating: 5,
   },
   {
     imgURL: shoe5,
-    name: "Nike Air Jordan-10",
+    name: "Vake Shoes-10",
     price: "$210.20",
     rating: 4,
   },
   {
     imgURL: shoe6,
-    name: "Nike Air Jordan-100",
+    name: "Vake shoes Series-100",
     price: "$220.20",
     rating: 3,
   },
   {
     imgURL: shoe7,
-    name: "Nike Air Jordan-001",
+    name: "Vake shoes Series-001",
     price: "$230.20",
     rating: 4,
   },
@@ -117,12 +117,12 @@ export const footerLinks = [
   {
     title: "Products",
     links: [
-      { name: "Air Force 1", link: "/" },
-      { name: "Air Max 1", link: "/" },
-      { name: "Air Jordan 1", link: "/" },
-      { name: "Air Force 2", link: "/" },
-      { name: "Nike Waffle Racer", link: "/" },
-      { name: "Nike Cortez", link: "/" },
+      { name: "Vake lorem 1", link: "/" },
+      { name: "Vake lorem 2", link: "/" },
+      { name: "Vake lorem 3", link: "/" },
+      { name: "Vake lorem 4", link: "/" },
+      { name: "Vake Waffle Racer", link: "/" },
+      { name: "Vake Cortez", link: "/" },
     ],
   },
   {
@@ -138,7 +138,7 @@ export const footerLinks = [
   {
     title: "Get in touch",
     links: [
-      { name: "customer@nike.com", link: "mailto:customer@nike.com" },
+      { name: "customer@Vake.com", link: "mailto:customer@Vake.com" },
       { name: "+92554862354", link: "tel:+92554862354" },
     ],
   },

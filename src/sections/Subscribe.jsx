@@ -20,7 +20,7 @@ const Subscribe = () => {
           name="subscribe"
           id="subscribe"
           className="input "
-          placeholder="shoe@nike.com"
+          placeholder="shoe@vake.com"
         />
         <div className="flex mx-0 items-center max-sm:w-[100%]">
           <Button label="Subscribe" fullWidth className="" />

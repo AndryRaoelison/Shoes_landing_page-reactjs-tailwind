@@ -6,17 +6,22 @@ const Footer = () => {
   return (
     <footer className="max-container">
       <div className="flex justify-between flex-col lg:flex-row gap-10">
-        <div className="flex flex-col gap-6 items-start mx-0 flex-1">
-          <img
-            src={footerLogo}
-            alt="footerLogo"
-            height={200}
-            width={200}
-            className=" mx-0"
-          />
+        <div className="flex flex-col gap-6 items-start mx-0 flex-1 ">
+          <div className="flex items-center justify-start  w-full gap-2">
+            <img
+              src={footerLogo}
+              alt="footerLogo"
+              height={75}
+              width={75}
+              className=" mx-0 "
+            />
+            <h1 className="font-palanquin font-bold lg:text-4xl text-xl  mx-0 text-white">
+              Vake Shoes
+            </h1>
+          </div>
           <p className="text-slate-gray max-w-sm font-montserrat text-md leading-normal mx-0">
-            Get shoes ready for the new term at your nearest Nike store. Find
-            you perfect size in Store. Get rewards.
+            Get shoes ready for the new term at your nearest store. Find you
+            perfect size in Store. Get rewards.
           </p>
           <div className=" flex gap-5 mx-0">
             {socialMedia.map((media) => (

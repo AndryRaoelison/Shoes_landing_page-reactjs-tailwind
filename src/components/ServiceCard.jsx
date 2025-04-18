@@ -11,7 +11,7 @@ const ServiceCard = ({ imgURL, label, subtext }) => {
       >
         <img src={imgURL} alt={label} className="object-contain w-[30px]" />
       </div>
-      <h3 className="mt-2 font-palanquin text-3xl font-bold leading-normal">
+      <h3 className="mt-2 font-palanquin text-3xl font-bold leading-normal ">
         {label}
       </h3>
       <p className="mt-2 text-sm text-slate-gray font-montserrat leading-normal  ">
