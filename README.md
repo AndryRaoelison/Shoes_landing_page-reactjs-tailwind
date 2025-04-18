@@ -2,7 +2,7 @@
 ---
 ## """"""""""""""""""""en-US"""""""""""""""""""""""""""""""""""
 A modern and responsive landing page for a fictional shoe brand, built with **React.js** and **Tailwind CSS**.  
-This project demonstrates front-end development skills focusing on **design**, **responsiveness**, and **clean UI** using modern web tools.
+This project purpose is to demonstrate front-end development skills focusing on **design**, **responsiveness**, and **clean UI** using modern web tools.
 
  ## Features : 
 
@@ -21,16 +21,14 @@ This project demonstrates front-end development skills focusing on **design**, *
 ![Review+CTA](https://github.com/user-attachments/assets/bc55e2ef-4dff-41cb-a175-ea8debe573b2)
 ### Mobile :
 ![MobilePreview](https://github.com/user-attachments/assets/dcbb92ed-1ec1-4c1a-8343-2a495f0d1052)
+
 ---
 
-# 👟 Page d’atterrissage - Chaussures
+## """"""""""""""""""""fr-FR"""""""""""""""""""""""""""""""""""
+#  Page d’atterrissage - Chaussures
 
 Une landing page moderne et responsive pour une marque de chaussures fictive, réalisée avec **React.js** et **Tailwind CSS**.  
 Ce projet met en avant les compétences en **développement front-end**, avec un accent sur le **design**, la **réactivité mobile** et une **interface utilisateur soignée**.
-
----
-## """"""""""""""""""""fr-FR"""""""""""""""""""""""""""""""""""
-
 ##  Fonctionnalités
 
 -  Design 100% responsive (mobile-first)
