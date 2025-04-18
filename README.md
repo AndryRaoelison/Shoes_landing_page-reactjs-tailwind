@@ -23,6 +23,11 @@ This project purpose is to demonstrate front-end development skills focusing on 
 ![MobilePreview](https://github.com/user-attachments/assets/dcbb92ed-1ec1-4c1a-8343-2a495f0d1052)
 
 ---
+## Contributing :
+
+Constructive feedback and suggestions are always welcome!  
+Feel free to open an issue or submit a pull request if you’d like to improve this project.
+---
 
 ## """"""""""""""""""""fr-FR"""""""""""""""""""""""""""""""""""
 #  Page d’atterrissage - Chaussures
@@ -48,4 +53,9 @@ Ce projet met en avant les compétences en **développement front-end**, avec un
 ![Review+CTA](https://github.com/user-attachments/assets/bc55e2ef-4dff-41cb-a175-ea8debe573b2)
 ### Mobile :
 ![MobilePreview](https://github.com/user-attachments/assets/dcbb92ed-1ec1-4c1a-8343-2a495f0d1052)
+---
+## Contribution : 
+
+Toute remarque constructive ou suggestion d’amélioration est la bienvenue !  
+N’hésitez pas à ouvrir une issue ou à proposer une pull request pour contribuer au projet.
 
