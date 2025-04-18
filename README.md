@@ -72,4 +72,4 @@ Ce projet met en avant les compétences en **développement front-end**, avec un
 
 Toute remarque constructive ou suggestion d’amélioration est la bienvenue !  
 N’hésitez pas à ouvrir une issue ou à proposer une pull request pour contribuer au projet.
-
+---
