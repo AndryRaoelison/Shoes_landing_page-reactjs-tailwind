@@ -5,14 +5,14 @@ import { useState } from "react";
 import MobileMenuNav from "./MobileMenuNav";
 
 const Nav = () => {
-  const [toggleMenu, setToggleMenu] = useState(false);
+  const [toggleMenu, setToggleMenu] = useState(false); //State if the mobile nav is open or !open
   const onToggleMenu = () => {
     setToggleMenu(!toggleMenu);
   };
   return (
     <header
       className={
-        `padding-x py-8  w-full fixed  z-20  h-[100px] ` +
+        `padding-x py-2 md:py-8  w-full fixed  z-20    md:h-[100px] ` +
         (toggleMenu ? " bg-white opacity-95" : " not-first-of-type:")
       }
     >
@@ -49,10 +49,11 @@ const Nav = () => {
             );
           })}
         </ul>
+        {/* Icon handling for mobile nav */}
         {toggleMenu ? (
           <img
             src={close}
-            alt="hamburger-icon"
+            alt="close-icon"
             className="w-[25px] h-[25px] 
           hover:cursor-pointer md:hidden mx-5"
             onClick={onToggleMenu}
@@ -67,9 +68,9 @@ const Nav = () => {
           />
         )}
 
-        {/* <div className="pr-0.5">Themetoggle</div>  dark theme à développer */}
+        {/*  dark theme need to be set up in a futur */}
       </nav>
-
+      {/* Mobile nav components */}
       {toggleMenu && <MobileMenuNav onToggleMenu={onToggleMenu} />}
     </header>
   );

@@ -23,7 +23,7 @@ const ProductCard = ({ imgURL, name, price, rating }) => {
         {name}
       </p>
       <p className="lg:mx-0 mt-2 font-montserrat text-coral-red text-sm font-semibold">
-        Price : {price} test
+        Price : {price}
       </p>
     </div>
   );

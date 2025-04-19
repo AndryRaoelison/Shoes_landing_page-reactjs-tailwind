@@ -10,8 +10,7 @@
     padding: 0 ;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    /* max-width: 1440px; a rajouter à la fin du dev*/
-    /* font-family: font-prim-font; */
+    max-width: 1440px; /* Add to prevent the width if .max-container is not set */
   }
 }  
 
@@ -32,7 +31,6 @@
     margin: 0 auto;
     padding: 0;
     
-    /* border: 2px dashed red; */
   }
 
   
