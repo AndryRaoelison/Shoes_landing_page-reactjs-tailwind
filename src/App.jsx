@@ -41,13 +41,3 @@ const App = () => (
 );
 
 export default App;
-
-// Nav
-// <section className="xl:px-4 wide:px-6 pb-4">Hero</section>
-// <section className="p-4">Popular Product</section>
-// <section className="p-4">SuperQuality</section>
-// <section className="p-10 py-10 text-amber-400">Service</section>
-// <section className="p-4 border-2 border-red-500 my-12">
-//   Special offer
-// </section>
-// <section className="p-4 bg-pale-blue">CustomerReview</section>

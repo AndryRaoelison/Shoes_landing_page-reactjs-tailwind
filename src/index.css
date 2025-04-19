@@ -10,7 +10,6 @@
     padding: 0 ;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    max-width: 1440px; /* Add to prevent the width if .max-container is not set */
   }
 }  
 
